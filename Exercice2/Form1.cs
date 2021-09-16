@@ -1,11 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/* Projet   : Exercice2
+ * Desc     : https://classroom.google.com/c/Mzg3ODczMjU0MzMy/a/Mzg3ODczMjU0MzM5/details
+ * Date     : 16.09.2021
+ * Version  : 1.0
+ * 
+ * Auteur   : Karel V. Svoboda
+ * Classe   : I.DA-P4A
+ */
+
+using System;
 using System.Windows.Forms;
 
 namespace Exercice2
@@ -17,16 +19,25 @@ namespace Exercice2
             InitializeComponent();
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        //Quand le bouton est appuyé, on inverse le texte et on l'envoie dans tbxReverse
+        private void btnReverse_Click(object sender, EventArgs e)
         {
-
+            tbxReverse.Text = Reverse(tbxText.Text);
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        //Methode d'inversion, retourne la variable s inversée
+        public static string Reverse(string s)
         {
-
+            char[] charArray = s.ToCharArray();
+            Array.Reverse(charArray);
+            return new string(charArray);
         }
 
-        
+
+        private void Form1_Shown(object sender, EventArgs e)
+        {
+            //Envoie du tbxText dans la class Clavier
+            Clavier.reftbx = tbxText;
+        }
     }
 }

@@ -4,7 +4,6 @@ C:\github\ATSUPP\Exercice2\bin\Debug\netcoreapp3.1\Exercice2.runtimeconfig.json
 C:\github\ATSUPP\Exercice2\bin\Debug\netcoreapp3.1\Exercice2.runtimeconfig.dev.json
 C:\github\ATSUPP\Exercice2\bin\Debug\netcoreapp3.1\Exercice2.dll
 C:\github\ATSUPP\Exercice2\bin\Debug\netcoreapp3.1\Exercice2.pdb
-C:\github\ATSUPP\Exercice2\obj\Debug\netcoreapp3.1\Exercice2.csproj.AssemblyReference.cache
 C:\github\ATSUPP\Exercice2\obj\Debug\netcoreapp3.1\Exercice2.Form1.resources
 C:\github\ATSUPP\Exercice2\obj\Debug\netcoreapp3.1\Exercice2.csproj.GenerateResource.cache
 C:\github\ATSUPP\Exercice2\obj\Debug\netcoreapp3.1\Exercice2.GeneratedMSBuildEditorConfig.editorconfig
