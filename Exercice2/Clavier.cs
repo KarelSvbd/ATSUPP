@@ -32,7 +32,7 @@ namespace Exercice2
         {
             //On envoie le text du bouton et on le place dans tbxText 
             _lettre = Text;
-            reftbx.Text += Text;
+            reftbx.Text += verifCharSpeciaux(Text);
         }
         public Clavier() : base()
         {
@@ -42,6 +42,50 @@ namespace Exercice2
             ForeColor = Color.White;
             //ajout de la mathode OnClivkà l'évenement Click du bouton
             Click += OnClick;
+            
+
+        }
+
+        public string Interpreteur(char clavier)
+        {
+            Console.WriteLine(clavier.ToString());
+            //si le char correspond au text de la touche, on retroune la valeur
+            if (clavier.ToString() == Text.ToLower())
+            {
+                
+                return clavier.ToString().ToUpper();
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        private string verifCharSpeciaux(string mot)
+        {
+            string resultat = "";
+            if (mot == "Espace")
+            {
+                resultat = " ";
+            }
+            else if (mot == "<---")
+            {
+                if (reftbx.Text != "")
+                {
+                    reftbx.Text.Remove(reftbx.Text.Length - 1);
+                }
+            }
+            else if(mot == "Enter")
+            {
+                Console.WriteLine("ui");
+                Form1.Reverse(reftbx.Text);
+            }
+            else
+            {
+                resultat = mot;
+            }
+
+            return resultat;
         }
     }
 }

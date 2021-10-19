@@ -1,0 +1,10 @@
+C:\github\ATSUPP\Tamagotchi\bin\Debug\Tamagotchi.exe.config
+C:\github\ATSUPP\Tamagotchi\bin\Debug\Tamagotchi.exe
+C:\github\ATSUPP\Tamagotchi\bin\Debug\Tamagotchi.pdb
+C:\github\ATSUPP\Tamagotchi\obj\Debug\Tamagotchi.csproj.AssemblyReference.cache
+C:\github\ATSUPP\Tamagotchi\obj\Debug\Tamagotchi.lblFatigue.resources
+C:\github\ATSUPP\Tamagotchi\obj\Debug\Tamagotchi.Properties.Resources.resources
+C:\github\ATSUPP\Tamagotchi\obj\Debug\Tamagotchi.csproj.GenerateResource.cache
+C:\github\ATSUPP\Tamagotchi\obj\Debug\Tamagotchi.csproj.CoreCompileInputs.cache
+C:\github\ATSUPP\Tamagotchi\obj\Debug\Tamagotchi.exe
+C:\github\ATSUPP\Tamagotchi\obj\Debug\Tamagotchi.pdb

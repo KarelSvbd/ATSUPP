@@ -1,0 +1,14 @@
+C:\github\ATSUPP\QueueCinemaObjet\bin\Debug\netcoreapp3.1\QueueCinemaObjet.exe
+C:\github\ATSUPP\QueueCinemaObjet\bin\Debug\netcoreapp3.1\QueueCinemaObjet.deps.json
+C:\github\ATSUPP\QueueCinemaObjet\bin\Debug\netcoreapp3.1\QueueCinemaObjet.runtimeconfig.json
+C:\github\ATSUPP\QueueCinemaObjet\bin\Debug\netcoreapp3.1\QueueCinemaObjet.runtimeconfig.dev.json
+C:\github\ATSUPP\QueueCinemaObjet\bin\Debug\netcoreapp3.1\QueueCinemaObjet.dll
+C:\github\ATSUPP\QueueCinemaObjet\bin\Debug\netcoreapp3.1\QueueCinemaObjet.pdb
+C:\github\ATSUPP\QueueCinemaObjet\obj\Debug\netcoreapp3.1\QueueCinemaObjet.csproj.AssemblyReference.cache
+C:\github\ATSUPP\QueueCinemaObjet\obj\Debug\netcoreapp3.1\QueueCinemaObjet.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\ATSUPP\QueueCinemaObjet\obj\Debug\netcoreapp3.1\QueueCinemaObjet.AssemblyInfoInputs.cache
+C:\github\ATSUPP\QueueCinemaObjet\obj\Debug\netcoreapp3.1\QueueCinemaObjet.AssemblyInfo.cs
+C:\github\ATSUPP\QueueCinemaObjet\obj\Debug\netcoreapp3.1\QueueCinemaObjet.csproj.CoreCompileInputs.cache
+C:\github\ATSUPP\QueueCinemaObjet\obj\Debug\netcoreapp3.1\QueueCinemaObjet.dll
+C:\github\ATSUPP\QueueCinemaObjet\obj\Debug\netcoreapp3.1\QueueCinemaObjet.pdb
+C:\github\ATSUPP\QueueCinemaObjet\obj\Debug\netcoreapp3.1\QueueCinemaObjet.genruntimeconfig.cache

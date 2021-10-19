@@ -1,0 +1,14 @@
+C:\github\ATSUPP\JeuAnimal\bin\Debug\netcoreapp3.1\JeuAnimal.exe
+C:\github\ATSUPP\JeuAnimal\bin\Debug\netcoreapp3.1\JeuAnimal.deps.json
+C:\github\ATSUPP\JeuAnimal\bin\Debug\netcoreapp3.1\JeuAnimal.runtimeconfig.json
+C:\github\ATSUPP\JeuAnimal\bin\Debug\netcoreapp3.1\JeuAnimal.runtimeconfig.dev.json
+C:\github\ATSUPP\JeuAnimal\bin\Debug\netcoreapp3.1\JeuAnimal.dll
+C:\github\ATSUPP\JeuAnimal\bin\Debug\netcoreapp3.1\JeuAnimal.pdb
+C:\github\ATSUPP\JeuAnimal\obj\Debug\netcoreapp3.1\JeuAnimal.csproj.AssemblyReference.cache
+C:\github\ATSUPP\JeuAnimal\obj\Debug\netcoreapp3.1\JeuAnimal.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\ATSUPP\JeuAnimal\obj\Debug\netcoreapp3.1\JeuAnimal.AssemblyInfoInputs.cache
+C:\github\ATSUPP\JeuAnimal\obj\Debug\netcoreapp3.1\JeuAnimal.AssemblyInfo.cs
+C:\github\ATSUPP\JeuAnimal\obj\Debug\netcoreapp3.1\JeuAnimal.csproj.CoreCompileInputs.cache
+C:\github\ATSUPP\JeuAnimal\obj\Debug\netcoreapp3.1\JeuAnimal.dll
+C:\github\ATSUPP\JeuAnimal\obj\Debug\netcoreapp3.1\JeuAnimal.pdb
+C:\github\ATSUPP\JeuAnimal\obj\Debug\netcoreapp3.1\JeuAnimal.genruntimeconfig.cache
