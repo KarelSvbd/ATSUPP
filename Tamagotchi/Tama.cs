@@ -67,7 +67,7 @@ namespace Tamagotchi
             }
         }
 
-        public int SECONDEENVIE
+        public int SecondesEnVie
         {
             get
             {

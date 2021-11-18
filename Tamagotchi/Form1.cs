@@ -12,7 +12,7 @@ namespace Tamagotchi
     public partial class lblFatigue : Form
     {
         //Creation d'un nouveau Tama (vitesse recommandée 30)
-        Tama Bestiole = new Tama("Tim", 80, 80, 10, 10, 30);
+        Tama Bestiole = new Tama("Tim", 10, 80, 10, 10, 30);
         
         public lblFatigue()
         {
@@ -68,7 +68,7 @@ namespace Tamagotchi
                 btnBoire.Enabled = false;
                 btnSoigner.Enabled = false;
                 btnDormir.Enabled = false;
-                tbxEtat.Text +=  " " + Bestiole.Nom + " a survecu : " + Bestiole.SECONDEENVIE.ToString() + " secondes";
+                tbxEtat.Text +=  " " + Bestiole.Nom + " a survecu : " + Bestiole.SecondesEnVie.ToString() + " secondes";
             }
             else
             {
