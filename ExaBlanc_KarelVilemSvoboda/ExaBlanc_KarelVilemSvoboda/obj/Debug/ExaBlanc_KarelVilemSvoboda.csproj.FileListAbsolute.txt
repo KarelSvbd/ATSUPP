@@ -1,0 +1,11 @@
+C:\github\ATSUPP\ExaBlanc_KarelVilemSvoboda\ExaBlanc_KarelVilemSvoboda\obj\Debug\ExaBlanc_KarelVilemSvoboda.csproj.AssemblyReference.cache
+C:\github\ATSUPP\ExaBlanc_KarelVilemSvoboda\ExaBlanc_KarelVilemSvoboda\obj\Debug\ExaBlanc_KarelVilemSvoboda.csproj.SuggestedBindingRedirects.cache
+C:\github\ATSUPP\ExaBlanc_KarelVilemSvoboda\ExaBlanc_KarelVilemSvoboda\obj\Debug\ExaBlanc_KarelVilemSvoboda.Frm1.resources
+C:\github\ATSUPP\ExaBlanc_KarelVilemSvoboda\ExaBlanc_KarelVilemSvoboda\obj\Debug\ExaBlanc_KarelVilemSvoboda.Properties.Resources.resources
+C:\github\ATSUPP\ExaBlanc_KarelVilemSvoboda\ExaBlanc_KarelVilemSvoboda\obj\Debug\ExaBlanc_KarelVilemSvoboda.csproj.GenerateResource.cache
+C:\github\ATSUPP\ExaBlanc_KarelVilemSvoboda\ExaBlanc_KarelVilemSvoboda\obj\Debug\ExaBlanc_KarelVilemSvoboda.csproj.CoreCompileInputs.cache
+C:\github\ATSUPP\ExaBlanc_KarelVilemSvoboda\ExaBlanc_KarelVilemSvoboda\bin\Debug\ExaBlanc_KarelVilemSvoboda.exe.config
+C:\github\ATSUPP\ExaBlanc_KarelVilemSvoboda\ExaBlanc_KarelVilemSvoboda\bin\Debug\ExaBlanc_KarelVilemSvoboda.exe
+C:\github\ATSUPP\ExaBlanc_KarelVilemSvoboda\ExaBlanc_KarelVilemSvoboda\bin\Debug\ExaBlanc_KarelVilemSvoboda.pdb
+C:\github\ATSUPP\ExaBlanc_KarelVilemSvoboda\ExaBlanc_KarelVilemSvoboda\obj\Debug\ExaBlanc_KarelVilemSvoboda.exe
+C:\github\ATSUPP\ExaBlanc_KarelVilemSvoboda\ExaBlanc_KarelVilemSvoboda\obj\Debug\ExaBlanc_KarelVilemSvoboda.pdb

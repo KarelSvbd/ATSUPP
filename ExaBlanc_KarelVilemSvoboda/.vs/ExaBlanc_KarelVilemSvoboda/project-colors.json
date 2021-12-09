@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a05c7c9e-291b-471c-8954-952cf141a6e2": {
+      "ProjectGuid": "a05c7c9e-291b-471c-8954-952cf141a6e2",
+      "DisplayName": "ExaBlanc_KarelVilemSvoboda",
+      "ColorIndex": 0
+    },
+    "57c70db8-f84b-4e87-9169-cf12d864dcd9": {
+      "ProjectGuid": "57c70db8-f84b-4e87-9169-cf12d864dcd9",
+      "DisplayName": "TestExaBlanc",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

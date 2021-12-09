@@ -1,0 +1,17 @@
+C:\github\ATSUPP\kmeans\kmeans\bin\Debug\net6.0-windows\kmeans.exe
+C:\github\ATSUPP\kmeans\kmeans\bin\Debug\net6.0-windows\kmeans.deps.json
+C:\github\ATSUPP\kmeans\kmeans\bin\Debug\net6.0-windows\kmeans.runtimeconfig.json
+C:\github\ATSUPP\kmeans\kmeans\bin\Debug\net6.0-windows\kmeans.dll
+C:\github\ATSUPP\kmeans\kmeans\bin\Debug\net6.0-windows\ref\kmeans.dll
+C:\github\ATSUPP\kmeans\kmeans\bin\Debug\net6.0-windows\kmeans.pdb
+C:\github\ATSUPP\kmeans\kmeans\obj\Debug\net6.0-windows\kmeans.csproj.AssemblyReference.cache
+C:\github\ATSUPP\kmeans\kmeans\obj\Debug\net6.0-windows\kmeans.Form1.resources
+C:\github\ATSUPP\kmeans\kmeans\obj\Debug\net6.0-windows\kmeans.csproj.GenerateResource.cache
+C:\github\ATSUPP\kmeans\kmeans\obj\Debug\net6.0-windows\kmeans.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\ATSUPP\kmeans\kmeans\obj\Debug\net6.0-windows\kmeans.AssemblyInfoInputs.cache
+C:\github\ATSUPP\kmeans\kmeans\obj\Debug\net6.0-windows\kmeans.AssemblyInfo.cs
+C:\github\ATSUPP\kmeans\kmeans\obj\Debug\net6.0-windows\kmeans.csproj.CoreCompileInputs.cache
+C:\github\ATSUPP\kmeans\kmeans\obj\Debug\net6.0-windows\kmeans.dll
+C:\github\ATSUPP\kmeans\kmeans\obj\Debug\net6.0-windows\ref\kmeans.dll
+C:\github\ATSUPP\kmeans\kmeans\obj\Debug\net6.0-windows\kmeans.pdb
+C:\github\ATSUPP\kmeans\kmeans\obj\Debug\net6.0-windows\kmeans.genruntimeconfig.cache

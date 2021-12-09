@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5b3e97fd-ed9f-4ad8-a8bc-1924d949c3c2": {
+      "ProjectGuid": "5b3e97fd-ed9f-4ad8-a8bc-1924d949c3c2",
+      "DisplayName": "kmeans",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
