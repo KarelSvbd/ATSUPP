@@ -11,6 +11,7 @@ namespace ProjetAtelierSupport
 {
     public class User
     {
+        private string _idPersonne;
         private string _nom;
         private string _prenom;
         private string _email;
@@ -19,6 +20,10 @@ namespace ProjetAtelierSupport
         private string _idGrade;
         private string _nomGrade;
 
+        public string IdPersonne
+        {
+            get { return _idPersonne; }
+        }
         public string Nom
         {
             get { return _nom; }
@@ -51,8 +56,9 @@ namespace ProjetAtelierSupport
         }
 
 
-        public User(string nom, string pernom, string email, string password, string sessionKey, string idGrade)
+        public User(string idPersonne, string nom, string pernom, string email, string password, string sessionKey, string idGrade)
         {
+            _idPersonne = idPersonne;
             _nom = nom;
             _prenom = pernom;
             _email = email;
@@ -62,7 +68,11 @@ namespace ProjetAtelierSupport
             _nomGrade = getNomGradeByIdGrade(idGrade);
         }
 
-
+        /// <summary>
+        /// Permet de récupérer le nom du grade en fonction de l'id de ce dernier
+        /// </summary>
+        /// <param name="idGrade">id du grade</param>
+        /// <returns>nom du grade</returns>
         private string getNomGradeByIdGrade(string idGrade)
         {
 
@@ -91,8 +101,6 @@ namespace ProjetAtelierSupport
                     }
                 }
                 return result;
-               
-                sr.Close();
             }
         }
     }

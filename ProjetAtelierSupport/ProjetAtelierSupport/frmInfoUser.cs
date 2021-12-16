@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace ProjetAtelierSupport
 {
-    public partial class frmInfoUser : Form
+    public partial class FrmInfoUser : Form
     {
         private User _user;
-        public frmInfoUser(User user)
+        public FrmInfoUser(User user)
         {
             InitializeComponent();
             _user = user;

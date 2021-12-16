@@ -1,6 +1,6 @@
 ﻿namespace ProjetAtelierSupport
 {
-    partial class Form1
+    partial class FrmLogin
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -62,7 +62,6 @@
             this.tbxPassword.PasswordChar = '*';
             this.tbxPassword.Size = new System.Drawing.Size(196, 20);
             this.tbxPassword.TabIndex = 2;
-            this.tbxPassword.TextChanged += new System.EventHandler(this.tbxPassword_TextChanged);
             // 
             // label1
             // 

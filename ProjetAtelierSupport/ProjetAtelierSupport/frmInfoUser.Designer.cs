@@ -1,6 +1,6 @@
 ﻿namespace ProjetAtelierSupport
 {
-    partial class frmInfoUser
+    partial class FrmInfoUser
     {
         /// <summary>
         /// Required designer variable.

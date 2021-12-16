@@ -15,33 +15,16 @@ using System.Windows.Forms;
 
 namespace ProjetAtelierSupport
 {
-    public partial class frmEmprunts : Form
+    public partial class FrmEmprunts : Form
     {
-        public frmEmprunts()
+        private ApiClient _apiClient = new ApiClient();
+        private dynamic _data;
+        public FrmEmprunts(User utilisateur)
         {
             InitializeComponent();
-            string strurltest = String.Format("http://localhost/ProjetsWeb/API_ProjetAtelierSupport/?emprunt=all");
-            WebRequest requestObject = WebRequest.Create(strurltest);
-            requestObject.Method = "GET";
-            HttpWebResponse responseObject = null;
-            responseObject = (HttpWebResponse)requestObject.GetResponse();
 
-            string strresulttest = null;
-            using (Stream steam = responseObject.GetResponseStream())
-            {
-                StreamReader sr = new StreamReader(steam);
-                strresulttest = sr.ReadToEnd();
-                JObject response = JObject.Parse(strresulttest);
-
-                foreach(var raw in response)
-                {
-                    Console.WriteLine(raw.ToString());
-                }
-                
-                sr.Close();
-            }
-            FrmMain frmMain = new FrmMain(utilisateur);
-            frmMain.Show();
+            _data = _apiClient.DeserialiseJSON(_apiClient.GetEmprunts());
+            DisplayEmprunt();
         }
 
         private void btnRetour_Click(object sender, EventArgs e)
@@ -53,5 +36,14 @@ namespace ProjetAtelierSupport
         {
 
         }
+
+        private void DisplayEmprunt()
+        {
+            foreach(var element in _data)
+            {
+                lstEmprunts.Items.Add(_apiClient.GetNamePersonneById(element["0"].ToString()) + " " + _apiClient.GetNameModeleById(element["1"].ToString()));
+            }
+        }
+
     }
 }

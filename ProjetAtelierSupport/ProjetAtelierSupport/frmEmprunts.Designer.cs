@@ -1,6 +1,6 @@
 ﻿namespace ProjetAtelierSupport
 {
-    partial class frmEmprunts
+    partial class FrmEmprunts
     {
         /// <summary>
         /// Required designer variable.

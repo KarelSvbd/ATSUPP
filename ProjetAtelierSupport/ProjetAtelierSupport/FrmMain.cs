@@ -13,6 +13,7 @@ namespace ProjetAtelierSupport
     public partial class FrmMain : Form
     {
         private User user;
+        private ApiClient apiClient = new ApiClient();
         public FrmMain(User utilisateur)
         {
             InitializeComponent();
@@ -63,14 +64,19 @@ namespace ProjetAtelierSupport
 
         private void btnUser_Click(object sender, EventArgs e)
         {
-            frmInfoUser frmInfoUser = new frmInfoUser(user);
+            FrmInfoUser frmInfoUser = new FrmInfoUser(user);
             frmInfoUser.Show();
         }
 
         private void btnEmprunts_Click(object sender, EventArgs e)
         {
-            frmEmprunts frmEmp = new frmEmprunts();
+            FrmEmprunts frmEmp = new FrmEmprunts(user);
             frmEmp.Show();
+        }
+
+        private void FrmMain_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            apiClient.Disconnect(user.IdPersonne);
         }
     }
 }

@@ -7,7 +7,6 @@ C:\github\ATSUPP\ProjetAtelierSupport\ProjetAtelierSupport\bin\Debug\Newtonsoft.
 C:\github\ATSUPP\ProjetAtelierSupport\ProjetAtelierSupport\bin\Debug\System.Net.Http.Formatting.xml
 C:\github\ATSUPP\ProjetAtelierSupport\ProjetAtelierSupport\obj\Debug\ProjetAtelierSupport.csproj.AssemblyReference.cache
 C:\github\ATSUPP\ProjetAtelierSupport\ProjetAtelierSupport\obj\Debug\ProjetAtelierSupport.csproj.SuggestedBindingRedirects.cache
-C:\github\ATSUPP\ProjetAtelierSupport\ProjetAtelierSupport\obj\Debug\ProjetAtelierSupport.Form1.resources
 C:\github\ATSUPP\ProjetAtelierSupport\ProjetAtelierSupport\obj\Debug\ProjetAtelierSupport.Properties.Resources.resources
 C:\github\ATSUPP\ProjetAtelierSupport\ProjetAtelierSupport\obj\Debug\ProjetAtelierSupport.csproj.GenerateResource.cache
 C:\github\ATSUPP\ProjetAtelierSupport\ProjetAtelierSupport\obj\Debug\ProjetAtelierSupport.csproj.CoreCompileInputs.cache
@@ -22,3 +21,4 @@ C:\github\ATSUPP\ProjetAtelierSupport\ProjetAtelierSupport\bin\Debug\RestSharp.d
 C:\github\ATSUPP\ProjetAtelierSupport\ProjetAtelierSupport\bin\Debug\Intercom.pdb
 C:\github\ATSUPP\ProjetAtelierSupport\ProjetAtelierSupport\bin\Debug\Newtonsoft.Json.pdb
 C:\github\ATSUPP\ProjetAtelierSupport\ProjetAtelierSupport\bin\Debug\RestSharp.xml
+C:\github\ATSUPP\ProjetAtelierSupport\ProjetAtelierSupport\obj\Debug\ProjetAtelierSupport.FrmLogin.resources
