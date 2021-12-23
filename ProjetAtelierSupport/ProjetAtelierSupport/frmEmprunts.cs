@@ -2,7 +2,7 @@
  * Class    : FrmEmprunts.cs
  * Desc.    : Gère la vue de la FrmEmprunts
  * Date     : 23.12.2021
- * Version  : 1.0
+ * Version  : 0.1
  * 
  * Auteur   : Karel V. Svoboda
  * Classe   : I.DA-P4A - 4e CFPT Info.
