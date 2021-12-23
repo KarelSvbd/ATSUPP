@@ -22,3 +22,5 @@ C:\github\ATSUPP\ProjetAtelierSupport\ProjetAtelierSupport\bin\Debug\Intercom.pd
 C:\github\ATSUPP\ProjetAtelierSupport\ProjetAtelierSupport\bin\Debug\Newtonsoft.Json.pdb
 C:\github\ATSUPP\ProjetAtelierSupport\ProjetAtelierSupport\bin\Debug\RestSharp.xml
 C:\github\ATSUPP\ProjetAtelierSupport\ProjetAtelierSupport\obj\Debug\ProjetAtelierSupport.FrmLogin.resources
+C:\github\ATSUPP\ProjetAtelierSupport\ProjetAtelierSupport\obj\Debug\ProjetAtelierSupport.FrmModifEmprunt.resources
+C:\github\ATSUPP\ProjetAtelierSupport\ProjetAtelierSupport\obj\Debug\ProjetAtelierSupport.FrmModeles.resources

@@ -1,25 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/* Projet   : ProjetAtelierSupport
+ * Class    : FrmMain.cs
+ * Desc.    : Gère la vue de la FrmMain
+ * Date     : 23.12.2021
+ * Version  : 1.0
+ * 
+ * Auteur   : Karel V. Svoboda
+ * Classe   : I.DA-P4A - 4e CFPT Info.
+ */
+
+using System;
 using System.Windows.Forms;
 
 namespace ProjetAtelierSupport
 {
     public partial class FrmMain : Form
     {
-        private User user;
-        private ApiClient apiClient = new ApiClient();
+        private User _user;
+        private ApiClient _apiClient = new ApiClient();
         public FrmMain(User utilisateur)
         {
             InitializeComponent();
-            user = utilisateur;
-            lblEmail.Text = user.Email;
+            _user = utilisateur;
+            lblEmail.Text = _user.Email;
 
+            //Désactivation de touts les boutons
             btnEmprunts.Enabled = false;
             btnModeles.Enabled = false;
             btnTypeObjet.Enabled = false;
@@ -27,7 +31,9 @@ namespace ProjetAtelierSupport
             btnConnexions.Enabled = false;
             btnGrade.Enabled = false;
 
-            switch (user.IdGrade)
+            //Activation des boutons en fonction du grade
+            //1 -> le plus élevé, 4 -> le plus faible
+            switch (_user.IdGrade)
             {
                 case "1":
                     btnEmprunts.Enabled = true;
@@ -52,31 +58,24 @@ namespace ProjetAtelierSupport
                 case "4":
                     btnEmprunts.Enabled = true;
                     break;
-
-
             }
-        }
-
-        private void FrmMain_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void btnUser_Click(object sender, EventArgs e)
         {
-            FrmInfoUser frmInfoUser = new FrmInfoUser(user);
+            FrmInfoUser frmInfoUser = new FrmInfoUser(_user);
             frmInfoUser.Show();
         }
 
         private void btnEmprunts_Click(object sender, EventArgs e)
         {
-            FrmEmprunts frmEmp = new FrmEmprunts(user);
+            FrmEmprunts frmEmp = new FrmEmprunts(_user);
             frmEmp.Show();
         }
 
         private void FrmMain_FormClosing(object sender, FormClosingEventArgs e)
         {
-            apiClient.Disconnect(user.IdPersonne);
+            _apiClient.Disconnect(_user.IdPersonne, _user);
         }
     }
 }

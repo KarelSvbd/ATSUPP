@@ -114,7 +114,7 @@
             this.tbxResponse.Size = new System.Drawing.Size(196, 87);
             this.tbxResponse.TabIndex = 7;
             // 
-            // Form1
+            // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -127,8 +127,8 @@
             this.Controls.Add(this.tbxPassword);
             this.Controls.Add(this.tbxEmail);
             this.Controls.Add(this.btnConnexion);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "FrmLogin";
+            this.Text = "Connexion ";
             this.ResumeLayout(false);
             this.PerformLayout();
 

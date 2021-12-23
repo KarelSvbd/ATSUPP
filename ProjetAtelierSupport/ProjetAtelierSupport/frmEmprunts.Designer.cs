@@ -30,6 +30,7 @@
         {
             this.btnRetour = new System.Windows.Forms.Button();
             this.lstEmprunts = new System.Windows.Forms.ListBox();
+            this.btnSupprimer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnRetour
@@ -50,15 +51,27 @@
             this.lstEmprunts.Size = new System.Drawing.Size(603, 381);
             this.lstEmprunts.TabIndex = 1;
             this.lstEmprunts.SelectedIndexChanged += new System.EventHandler(this.lstEmprunts_SelectedIndexChanged);
+            this.lstEmprunts.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lstEmprunts_MouseDoubleClick);
             // 
-            // frmEmprunts
+            // btnSupprimer
+            // 
+            this.btnSupprimer.Enabled = false;
+            this.btnSupprimer.Location = new System.Drawing.Point(13, 405);
+            this.btnSupprimer.Name = "btnSupprimer";
+            this.btnSupprimer.Size = new System.Drawing.Size(125, 23);
+            this.btnSupprimer.TabIndex = 2;
+            this.btnSupprimer.Text = "Supprimer";
+            this.btnSupprimer.UseVisualStyleBackColor = true;
+            // 
+            // FrmEmprunts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(628, 441);
+            this.Controls.Add(this.btnSupprimer);
             this.Controls.Add(this.lstEmprunts);
             this.Controls.Add(this.btnRetour);
-            this.Name = "frmEmprunts";
+            this.Name = "FrmEmprunts";
             this.Text = "Gestion des emprunts";
             this.ResumeLayout(false);
 
@@ -68,5 +81,6 @@
 
         private System.Windows.Forms.Button btnRetour;
         private System.Windows.Forms.ListBox lstEmprunts;
+        private System.Windows.Forms.Button btnSupprimer;
     }
 }

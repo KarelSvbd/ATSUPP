@@ -1,25 +1,26 @@
-﻿using Newtonsoft.Json.Linq;
+﻿/* Projet   : ProjetAtelierSupport
+ * Class    : User.cs
+ * Desc.    : Permet de créer un utilisateur identique à celui dans la base de données
+ * Date     : 23.12.2021
+ * Version  : 1.0
+ * 
+ * Auteur   : Karel V. Svoboda
+ * Classe   : I.DA-P4A - 4e CFPT Info.
+*/
+
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProjetAtelierSupport
 {
     public class User
     {
-        private string _idPersonne;
-        private string _nom;
-        private string _prenom;
-        private string _email;
-        private string _password;
-        private string _sessionKey;
-        private string _idGrade;
-        private string _nomGrade;
+        #region Variables d'instances
+        private readonly string _idPersonne, _nom, _prenom, _email, _password, _sessionKey, _idGrade, _nomGrade;
+        #endregion
 
+        #region Proptiétés publiques
         public string IdPersonne
         {
             get { return _idPersonne; }
@@ -54,8 +55,18 @@ namespace ProjetAtelierSupport
         {
             get { return _nomGrade; }
         }
+        #endregion
 
-
+        /// <summary>
+        /// Permet de créer un utilisateur
+        /// </summary>
+        /// <param name="idPersonne">id du User</param>
+        /// <param name="nom">nom du User</param>
+        /// <param name="pernom">prenom du User</param>
+        /// <param name="email">email du User</param>
+        /// <param name="password">password du User</param>
+        /// <param name="sessionKey">clé de session du User</param>
+        /// <param name="idGrade">idGrade du User</param>
         public User(string idPersonne, string nom, string pernom, string email, string password, string sessionKey, string idGrade)
         {
             _idPersonne = idPersonne;
@@ -65,7 +76,7 @@ namespace ProjetAtelierSupport
             _password = password;
             _sessionKey = sessionKey;
             _idGrade = idGrade;
-            _nomGrade = getNomGradeByIdGrade(idGrade);
+            _nomGrade = GetNomGradeByIdGrade(idGrade);
         }
 
         /// <summary>
@@ -73,7 +84,7 @@ namespace ProjetAtelierSupport
         /// </summary>
         /// <param name="idGrade">id du grade</param>
         /// <returns>nom du grade</returns>
-        private string getNomGradeByIdGrade(string idGrade)
+        private string GetNomGradeByIdGrade(string idGrade)
         {
 
             string strurltest = String.Format("http://localhost/ProjetsWeb/API_ProjetAtelierSupport/?grades=nom&idGrade=" + idGrade);
